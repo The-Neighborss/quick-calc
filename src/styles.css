@@ -1,4 +1,59 @@
-.logo.vanilla:hover {
+/* Nums Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+div,
+button {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  user-select: none;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 16rem;
+}
+
+.nums {
+  display: flex;
+  gap: 0.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.num__btn {
+  background-color: rgb(71, 75, 93);
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 1.7rem;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+}
+
+.num__btn:hover {
+  background-color: rgb(47, 52, 65);
+}
+
+/* .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #ffe21c);
 }
 :root {
@@ -109,4 +164,4 @@ button {
   button:active {
     background-color: #0f0f0f69;
   }
-}
+} */
