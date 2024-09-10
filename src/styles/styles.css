@@ -1,0 +1,53 @@
+/* Nums Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+div,
+button {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  user-select: none;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0.3rem;
+}
+
+.calc-btns {
+  display: grid;
+  gap: 0.2rem;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.calc__btns {
+  background-color: rgb(58, 61, 77);
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 1.8rem;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+}
+
+.num__btn:nth-child(10) {
+  grid-column: 1 / 3;
+}
+
+.num__btn:hover {
+  background-color: rgb(47, 52, 65);
+}

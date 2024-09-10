@@ -18,9 +18,11 @@
     },
     "windows": [
       {
-        "title": "quick-calc",
-        "width": 600,
-        "height": 600
+        "title": "Quick Calc",
+        "width": 330,
+        "height": 480,
+        "minWidth": 330,
+        "minHeight": 480
       }
     ],
     "security": {
